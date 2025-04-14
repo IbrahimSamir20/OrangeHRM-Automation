@@ -7,7 +7,6 @@ public class LoginPage extends PageBase {
     By username = By.xpath("//input[@name=\"username\"]");
     By password = By.xpath("//input[@name=\"password\"]");
     By loginButton = By.xpath("//button[@type=\"submit\"]");
-    int age ;
     public LoginPage(WebDriver driver) {
 //        super(driver);
            super(driver)   ;
